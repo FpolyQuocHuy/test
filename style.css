@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.close {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:  5px 10px;
+    cursor: pointer;
+}
+.close:hover {
+    color: red;
+}
+.form .container-form.open {
+    display: block;
+}
+.form-login.open {
+    display: block;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    position: relative;
+    background: linear-gradient(to left, #2E3192, #1BFFFF) ;
+}
+.form .container-form {
+    background-color: #fff;
+    border: 2px solid #999;
+    border-radius: 20px;
+    width: 350px;
+    display: block;
+    padding: 10px 20px;
+    position: absolute;
+    display: none;
+}
+.container-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #666;
+    margin-top: 20px;
+}
+.form-control input, label {
+    width: 100%;
+}
+.form-control input,textarea {
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(95, 94, 94);
+    outline: none;
+    margin-bottom: 0px;
+}
+.form-control {
+    margin-top: 10px;
+}
+.form-control textarea {
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+.form-control label {
+    margin-bottom: 7px;
+
+}
+.btn {
+    padding: 8px 25px;
+    font-size: 16px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+#nationnal {
+    cursor: pointer;
+}
+.form-login {
+    display: flex;
+    background: rgb(95, 94, 94);
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+.form-login .container-form {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    display: block;
+    background-color: #fff;
+    padding: 10px 20px;
+    height: 330px;
+    border-radius: 20px;
+    position: absolute;
+
+    top: 50px;
+    left: 40%;
+}
+.form-login .container-form input, label {
+    width: 100%;
+
+}
+.form-login .container-form input {
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #888;
+    margin-bottom: 0px;
+}
+.create-acc {
+    margin-top: 10px;
+}
+.error {
+    color: red;
+}
+.form-control .error-input {
+    border-bottom: 2px solid red;
+}
+#role {
+    padding: 7px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

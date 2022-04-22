@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+    <div class="show-form">
+        <button class="btn btn-regis">Đăng kí</button>
+        <button class="btn btn-login">Đăng nhập</button>
+    </div>
+        <form class="container-form" id="frm">
+            <button class="close close-form">x</button>
+            <h1>Đăng kí thành viên</h1>
+            
+            <div class="form-control">
+                <label for="name">Họ và tên</label>
+                <input class="name-user" type="text" name="name" id="name" placeholder="Nhập họ và tên">
+                <small class="er1"></small>
+            </div>
+            <div class="form-control">
+                <label for="code">Tên đăng nhập</label>
+                <input class="user" type="text" name="msv" id="code" placeholder="Nhập tên đăng nhập">
+                <small class="er2"></small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input class="email" type="email" name="email" id="email" placeholder="abc123@gmail.com">
+                <small class="er3"></small>
+            </div>
+            <div class="form-control">
+                <label for="code">Mật khẩu</label>
+                <input class="password" type="password" name="msv" id="password" placeholder="Nhập mật khẩu của bạn">
+                <small class="er4"></small>
+            </div>
+           
+           
+            <div class="form-control">
+                <label for="nationnal">Quốc tịch</label>
+                <select name="nationnal" id="nationnal">
+                    <option value="VN">Việt Nam</option>
+                    <option value="USA">USA</option>
+                    <option value="china">China</option>
+                </select>
+                <option value="nationnal"></option>
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="node">Ghi chú</label>
+                <textarea name="" id="text-node" cols="35" rows="3"></textarea>
+                <small class="er6"></small>
+            </div>
+            <button class="btn btn-submit" type="submit">Đăng kí</button>
+        </form>
+    </div>
+    <!-- //login -->
+    <div class="form-login">
+        <form class="container-form" id="frm-login">
+            <h1 class="title-logins">Đăng nhập</h1>
+            <div class="container-input">
+                <div class="form-control">
+                    <label for="email">Tên đăng nhập</label>
+                <input class="user-login" type="text" name="login" id="user-name" placeholder="Tên đăng nhập">
+                <small class="er7"></small>
+                </div>
+                
+                <div class="form-control">
+                    <label for="passwork">Mật khẩu</label>
+                <input class="pass-login" type="password" name=" login" id="passWord-login" placeholder="Mật khẩu">
+                <small class="er8"></small>
+                </div>
+            </div>
+            <select  id="role">
+                <option value=" ">Role</option>
+                <option value="user ">User</option>
+                <option value="admin">Admin</option>
+            </select>
+            <button type="submit" class="btn btn-premary">Đăng nhập</button>
+            <button class="close close-login">x</button>
+            <br>
+            <a class="create-acc" href="">create a account</a>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
